@@ -30,7 +30,7 @@ p {
     margin-bottom: 5px;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
     color: rgb(171, 118, 118);
 }
