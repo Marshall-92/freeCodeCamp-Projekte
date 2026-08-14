@@ -30,7 +30,7 @@ p {
     margin-bottom: 5px;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
     color: rgb(171, 118, 118);
 }
@@ -48,4 +48,10 @@ hr {
     height: 4px;
     background-color: lightgray;
     border: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around; /* Verteilt die Links mit gleichmäßigem Abstand */
+  align-items: center;
 }
