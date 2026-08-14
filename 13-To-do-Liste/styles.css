@@ -42,22 +42,23 @@ a {
 }
 
 a:link {
-    color: blue;
+    color: #0066cc;  /* Kräftiges Blau */
 }
 
 a:visited {
-    color: rgb(141, 188, 241);
+    color: #663399;  /* Lila */
 }
 
 a:hover {
-    color: rgb(15, 230, 101);
+    color: #00aa44;  /* Dunkleres Grün */
+    text-decoration: underline;  /* Zusätzliche Unterscheidung */
+}
+
+a:active {
+    color: #000000;  /* Schwarz */
 }
 
 a:focus {
     outline: 2px solid gray;
     outline-offset: 2px;
-}
-
-a:active {
-    color:black;
 }
